@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6)50%, rgba(0, 0, 0, 0.6)50%), url(./1_EctvzSDOlwqeH13R6YBYOw.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5rem;
+    color: white;
+}
+
+.search-container {
+    border-radius: 1rem;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    background-color: rgb(207, 193, 193);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+
+}
+
+.filter {
+
+    margin-right: 1rem;
+}
+
+.search-container input {
+    font-size: 1.5rem;
+    width: 70%;
+    margin: auto;
+    border-radius: 0.5rem;
+    border: none;
+    padding-left: 1rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgb(236, 226, 226);
+    color: black;
+    font-weight: bold;
+
+}
+
+i {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+i:hover {
+    color: red;
+}
+
+.fa-filter {
+    margin-left: 5rem;
+}
+
+.search-container span {
+    font-size: 1.2rem;
+}
+
+.fa-filter:hover {
+    color: red;
+}
+
+.table-container {
+
+    margin-top: 3rem;
+
+}
+
+table {
+    margin: 0 auto;
+    width: 80%;
+    background: rgb(207, 193, 193);
+    border-radius: 1rem;
+    margin-bottom: 10rem;
+    padding: 0 1rem 2rem 1rem;
+
+}
+
+th,
+td {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+thead {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+th {
+    background-color: #333;
+    color: white;
+    border: none;
+
+}
+
+td {
+    font-weight: 600;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+span {
+    color: red;
+}
+
+span:hover {
+    text-decoration: underline;
+    ;
+}
+
+.gif {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.gif img {
+    max-width: 15%;
+    border-radius: 20rem;
+}
