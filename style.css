@@ -1,77 +1,75 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap');
 
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Didact Gothic', sans-serif;
+
 }
 
 body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6)50%, rgba(0, 0, 0, 0.6)50%), url(./1_EctvzSDOlwqeH13R6YBYOw.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: rgb(204,204,204);
 }
 
 h1 {
     text-align: center;
     margin-top: 5rem;
-    color: white;
+
+}
+
+
+.pokeapi {
+    width: 7%;
 }
 
 .search-container {
     border-radius: 1rem;
-    width: 80%;
+    width: fit-content; 
     margin: 0 auto;
     margin-top: 2rem;
-    background-color: rgb(207, 193, 193);
+    /* background-color: rgb(173, 73, 60);  */
     padding-top: 1rem;
     padding-bottom: 1rem;
-
-
+    padding-right: 2rem;
+    display: flex;
 }
 
-.filter {
-
-    margin-right: 1rem;
-}
 
 .search-container input {
     font-size: 1.5rem;
-    width: 70%;
     margin: auto;
-    border-radius: 0.5rem;
     border: none;
     padding-left: 1rem;
-    margin-right: 1rem;
     margin-left: 1rem;
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    background-color: rgb(236, 226, 226);
     color: black;
-    font-weight: bold;
+    box-sizing: border-box;
 
 }
+
+
 
 i {
     font-size: 1.5rem;
     cursor: pointer;
 }
-
 i:hover {
-    color: red;
+    color: black;
 }
 
-.fa-filter {
-    margin-left: 5rem;
+
+.fa-magnifying-glass {
+    background-color: rgb(173, 73, 60);
+    padding: 0.6rem;
+    box-sizing: border-box;
 }
 
-.search-container span {
-    font-size: 1.2rem;
+.fa-magnifying-glass:hover {
+    color: white;
 }
 
-.fa-filter:hover {
-    color: red;
-}
+
 
 .table-container {
 
@@ -82,11 +80,28 @@ i:hover {
 table {
     margin: 0 auto;
     width: 80%;
-    background: rgb(207, 193, 193);
-    border-radius: 1rem;
     margin-bottom: 10rem;
     padding: 0 1rem 2rem 1rem;
+    border-collapse: collapse;
 
+}
+
+.pikachuImage {
+
+    width: 15%;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    border-radius: 1rem;
+    
+
+}
+
+.trash {
+    font-size: 2rem
+}
+
+.trash:hover {
+    color: rgb(173, 73, 60);
 }
 
 th,
@@ -100,15 +115,27 @@ thead {
     text-transform: uppercase;
 }
 
+
+
 th {
-    background-color: #333;
+    background-color:rgb(173, 73, 60);
     color: white;
     border: none;
+    padding: 1.5rem 0;
 
 }
 
+.fa-arrow-up-a-z, .fa-arrow-up-9-1 {
+    margin-right: 0.5rem;
+}
+
+.fa-arrow-down-a-z{
+    margin-left: 0.5rem;
+}
+
 td {
-    font-weight: 600;
+    
+    border-bottom: 1px solid black;
 }
 
 a {
@@ -122,13 +149,10 @@ a:hover {
 }
 
 span {
-    color: red;
+    color: black;
 }
 
-span:hover {
-    text-decoration: underline;
-    ;
-}
+
 
 .gif {
     text-align: center;
@@ -136,6 +160,8 @@ span:hover {
 }
 
 .gif img {
-    max-width: 15%;
-    border-radius: 20rem;
+    max-width: 20%;
+    border-radius: 1rem;
 }
+
+

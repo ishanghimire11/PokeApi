@@ -15,32 +15,37 @@
 <body>
    <div class="container">
 
-      <h1>Find Pokemons powered by <a href="https://pokeapi.co/" target="_blank"> <span>PokeAPI</span> </a></h1>
+      <h1> Powered by <a href="https://pokeapi.co/" target="_blank"><img src="./images/pokeapi_256.3fa72200.png" class="pokeapi" ></a></h1>
       <div class="gif">
-         <img src="./5V1.gif">
+         <img src="./images/5V1.gif">
       </div>
       <div class="search-container">
-         <input type="text" placeholder="Search for Pokemons">
+         <input type="text" placeholder="Search for Pokemons" id="searchInput">
          <i class="fa-solid fa-magnifying-glass"></i>
-         <i class="fa-solid fa-filter"></i>
-      
 
       </div>
       <div class="table-container">
          <table>
             <thead>
                <tr>
-                  <td colspan="3">List of Pokemons</td>
+                  <th> 
+                     <i class="fa-solid fa-arrow-up-9-1" id="id-des"></i>Pokemon ID
+                     <i class="fa-solid fa-arrow-down-1-9" id="id-as"></i></th>
+                  <th>
+                     <i class="fa-solid fa-arrow-up-a-z" id="pikachuNameAs"></i>Pokemon Name<i class="fa-solid fa-arrow-down-a-z" id="pikachuNameDes"></i>
+                     
+                  </th>
+                  <th>URL of Pokemon
+
+                  </th>
+                  <th>
+                     Delete?
+                  </th>
                </tr>
             </thead>
 
             <tbody id="tableBody">
-               <tr>
-                  <th>Pokemon ID</th>
-                  <th>Pokemon Name</th>
-                  <th>URL of Pokemon</th>
-
-               </tr>
+               
             </tbody>
 
          </table>
